@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import { LinkScribeApp } from "@/components/LinkScribeApp";
 
 export default function Home() {
-  redirect("/linkscribe");
+  return <LinkScribeApp />;
 }

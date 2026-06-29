@@ -1,5 +1,5 @@
-import { LinkScribeApp } from "@/components/LinkScribeApp";
+import { redirect } from "next/navigation";
 
 export default function LinkScribePage() {
-  return <LinkScribeApp />;
+  redirect("/");
 }
