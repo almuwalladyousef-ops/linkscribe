@@ -1,0 +1,12 @@
+.git/
+.next/
+node_modules/
+tmp/
+skills/
+sessions/
+*.code-workspace
+README.md
+CLAUDE.md
+_setup.md
+(C) intake.md
+(C) plan.md
